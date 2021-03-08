@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON DEV - Detalles del producto</title>
+
+    <!--Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav__center container">
+        <a href="index.html">
+          <div class="nav__logo">
+            <h1>JSON <span>DEV</span></h1>
+          </div>
+        </a>
+
+        <ul class="nav__list">
+          <span>
+            <i class="bx bxs-watch"></i>
+          </span>
+
+          <div class="carrito__icon">
+            <i class="bx bx-cart"></i>
+            <span class="item__total">0</span>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container detalle" id="detalles">
+      <article class=" detalle-grid">
+        <img
+          src="https://cdn4.chrono24.com/images/topmodels/2889-i234z41cn7v0n4vanfhte4w4-Original.png?auto=compress&amp;h=305"
+          alt=""
+          class="img-fluid"
+        />
+        <div class="detalles-content">
+          <h3>The Original Super loremDonut</h3>
+          <div class="rating">
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bxs-star"></i>
+            </span>
+            <span>
+              <i class="bx bx-star"></i>
+            </span>
+          </div>
+          <p class="precio"><b>Precio: </b><span>$ 50.00</span></p>
+          
+          <p class="description">
+            <b>Descripción: </b> <span> Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Magnam voluptates quos similique provident laborum
+            laboriosam omnis expedita est corrupti. Nisi esse saepe veritatis
+            eos iure modi maxime labore voluptate sit, provident natus rem nihil
+            ad? Dignissimos voluptates sapiente aspernatur dolor autem sunt.
+            Soluta sint obcaecati perferendis nulla eaque quibusdam repellat! </span>
+          </p>
+          <p class="description"> <span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,
+            tenetur ipsum possimus ratione eum voluptate modi! Cumque mollitia
+            esse atque dolore deleniti facilis dolorem modi aspernatur. Aliquid
+            molestias hic, temporibus quo, aut sunt quisquam nostrum delectus
+            aliquam repellat tempore quam harum repellendus porro ea. Molestiae
+						corporis incidunt commodi ducimus id.
+					</span>
+					</p>
+					
+					<div class="bottom">
+            <div class="btn__group">
+              <a href="#" class="btn addToCart">Añadir carrito</a>
+            </div>
+          </div>
+				</div>
+      </article>
+    </main>
+
+    <section class="carrito__overlay">
+      <div class="carrito">
+        <span class="close__carrito">
+          <i class="bx bx-x"></i>
+        </span>
+        <h1>Su Carrito</h1>
+        <div class="carrito__center">
+          <!-- Carrito Item -->
+          <div class="carrito__item">
+            <!-- <img src="https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305" alt="">
+              <div>
+                <h3>The Original Super Donut</h3>
+                <h3 class="price">$750</h3>
+              </div>
+              <div>
+                <span>
+                    <i class="bx bxs-up-arrow"></i>
+                  </span>
+                  <p>1</p>
+                  <span>
+                      <i class="bx bxs-down-arrow"></i>
+                  </span>
+              </div>
+              <div>
+                <span class="remove__item">
+                    <i class="bx bx-trash"></i>
+                </span>
+              </div> -->
+          </div>
+        </div>
+
+        <div class="carrito__footer">
+          <h3>Total: $ <span class="carrito__total">0</span></h3>
+          <button class="clear__carrito btn">remover carrito</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

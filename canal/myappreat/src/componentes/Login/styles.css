@@ -1,0 +1,54 @@
+.login{
+  width: 80%;
+  text-align: center;
+  padding-top: 10%;
+}
+.login > form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+ 
+}
+.login > form > input{
+  margin: 10px 0;
+  height: 40px;
+  border: none;
+  outline: 0;
+  border-radius: 12px;
+  padding-left: 15px;
+  font-size: 18px;
+}
+.login > form > button{
+  margin-top: 10%;
+  height: 35px;
+  border: none;
+  background: #5050f3;
+  border-radius: 30px;
+  transition: .3s ease-in-out;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  outline: 0;
+}
+.login > form > button:hover{
+  background: #2424f0;
+}
+.login > form > .google{
+  background: #e4584e;
+}
+.login > form > .google:hover{
+  background: #f03f33;
+}
+.login > p{
+  cursor: pointer;
+  margin-top: 15%;
+}
+.login > p > span{
+  color: rgb(35, 35, 224);
+  transition: .3s ease-in-out;
+}
+.login > p > span:hover{
+  color: rgb(11, 11, 138);
+}

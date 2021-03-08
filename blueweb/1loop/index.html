@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola mundo con Vue.js</title>
+  
+</head>
+<body>
+  
+  <div id="app">
+    <h3 >{{title}}</h3>
+    <input type="text" v-model="nuevaFruta.nombre" @keyup.enter="agregarFrutas">
+    <input type="text" v-model.number="nuevaFruta.cantidad" @keyup.enter="agregarFrutas">
+    <button v-on:click="agregarFrutas">Agregar frutas</button>
+    <ul>
+      <li v-for="fruta of frutas">
+        {{fruta.nombre}} - {{fruta.cantidad}} - 
+        <span v-if="fruta.cantidad === 0"> sin Stock</span>
+        <button v-on:click="fruta.cantidad++">+</button>
+        <button v-on:click="fruta.cantidad--">-</button>
+      </li>
+    </ul>
+    <h2>Total: {{totalFruta}}</h2>
+  </div>
+ 
+
+  <!-- versión de desarrollo, incluye advertencias de ayuda en la consola -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./js.js"></script>
+</body>
+</html>

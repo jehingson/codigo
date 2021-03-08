@@ -1,0 +1,40 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  background-color: #80acfd;
+  display: grid;
+  place-items: center;
+}
+.container{
+  height: 70vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  background: #f3ed9d;
+  border-radius: 12px;
+  padding: 32px 0;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Enge */
+  scrollbar-width: none; /* Firefox */
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+.listas{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.salir{
+  position: absolute;
+  top: 12%;
+  margin-left: 24%;
+  border: none;
+  color: white;
+  background: #2b9038;
+  cursor: pointer;
+  outline: 0;
+}

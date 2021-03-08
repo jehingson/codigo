@@ -1,0 +1,31 @@
+body{
+  background-color: #ecebe4;
+}
+.card{
+  border: 3px solid rgba(0, 0, 0, 0.712);
+  transition: all 8ms ease-in-out;
+}
+.card-text{
+  height: 25px;
+  overflow: hidden !important;
+}
+
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right:20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
